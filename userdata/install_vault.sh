@@ -1,7 +1,7 @@
 sudo yum update
 
 # install yum-config-manager to manage repositories.
-sudo yum install -y yum-utils
+sudo yum install -y yum-utils jq
 
 # use yum-config-manager to add the official HashiCorp Linux repository.
 sudo yum-config-manager --add-repo https://rpm.releases.hashicorp.com/AmazonLinux/hashicorp.repo
